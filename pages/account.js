@@ -1,5 +1,12 @@
+import Layout from "../components/layout";
+
 function Account() {
-  return <h1>This is your account page</h1>;
+  return (
+    <div>
+      <Layout />
+      <h1>sdijsdijsaoiasiodjsaiodj</h1>
+    </div>
+  );
 }
 
 export default Account;

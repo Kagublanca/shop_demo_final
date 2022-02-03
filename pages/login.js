@@ -1,5 +1,12 @@
+import Layout from "../components/layout";
+
 function About() {
-  return <h1>Welcome to the sign in page!!</h1>;
+  return (
+    <div>
+      <Layout />
+      <h1>sdijsdijsaoiasiodjsaiodj</h1>
+    </div>
+  );
 }
 
 export default About;

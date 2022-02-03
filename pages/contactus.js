@@ -1,5 +1,12 @@
+import Layout from "../components/layout";
+
 function ContactUs() {
-  return <h1>This is the contact us page</h1>;
+  return (
+    <div>
+      <Layout />
+      <h1>sdijsdijsaoiasiodjsaiodj</h1>
+    </div>
+  );
 }
 
 export default ContactUs;

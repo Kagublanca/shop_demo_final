@@ -1,5 +1,12 @@
+import Layout from "../components/layout";
+
 function Help() {
-  return <h1>This is the help page</h1>;
+  return (
+    <div>
+      <Layout />
+      <h1>sdijsdijsaoiasiodjsaiodj</h1>
+    </div>
+  );
 }
 
 export default Help;
