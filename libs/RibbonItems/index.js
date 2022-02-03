@@ -1,9 +1,9 @@
 const ribbonItems = [
-  { itemName: "Sign In", direct: "/about" },
-  { itemName: "Store Locator", direct: "/somewhere" },
-  { itemName: "Contact Us", direct: "/somewhere" },
-  { itemName: "Help", direct: "/somewhere" },
-  { itemName: "My Account", direct: "/somewhere" },
+  { itemName: "Log-In", direct: "/login" },
+  { itemName: "Store Locator", direct: "/locator" },
+  { itemName: "Contact Us", direct: "/contactus" },
+  { itemName: "Help", direct: "/help" },
+  { itemName: "My Account", direct: "/account" },
 ];
 
 export default ribbonItems;
