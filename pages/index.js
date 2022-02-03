@@ -1,10 +1,12 @@
-import TopRibbon from "../components/TopRibbon";
-function HomePage() {
+import Layout from "../components/layout";
+
+function Index() {
   return (
-    <div className="App">
-      <TopRibbon />
+    <div>
+      <Layout />
+      <h1>sdijsdijsaoiasiodjsaiodj</h1>
     </div>
   );
 }
 
-export default HomePage;
+export default Index;
