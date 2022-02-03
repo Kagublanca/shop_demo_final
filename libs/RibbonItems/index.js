@@ -1,5 +1,5 @@
 const ribbonItems = [
-  { itemName: "Sign In", direct: "/somewhere" },
+  { itemName: "Sign In", direct: "/about" },
   { itemName: "Store Locator", direct: "/somewhere" },
   { itemName: "Contact Us", direct: "/somewhere" },
   { itemName: "Help", direct: "/somewhere" },

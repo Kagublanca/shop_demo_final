@@ -1,4 +1,5 @@
 import styles from "./RibbonItem.module.css";
+import Link from "next/link";
 
 function RibbonItem({ name, direct }) {
   function handleClick() {
@@ -6,7 +7,9 @@ function RibbonItem({ name, direct }) {
   }
   return (
     <h1 className={styles.item}>
-      <li onClick={handleClick}>{name}</li>
+      <Link href={direct} passHref>
+        <li onClick={handleClick}>{name}</li>
+      </Link>
     </h1>
   );
 }

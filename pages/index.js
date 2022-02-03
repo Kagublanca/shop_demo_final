@@ -1,4 +1,3 @@
-import Link from "next/link";
 import TopRibbon from "../components/TopRibbon";
 function HomePage() {
   return (
