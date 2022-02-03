@@ -1,5 +1,5 @@
 .item{
-    justify-content: center;
+    display: flex;
     color: white;
     font-size: 1em;
     white-space: nowrap;
@@ -7,6 +7,22 @@
     padding: .1cm;
     list-style-type: none;
     border: solid white 1px;
-    margin: 4px;
-    border-radius: 25px 100px;
+    margin: 6px;
+    border-radius: 25px 500px 200px;
+    width: calc(6vw);
+    text-align: center;
+}
+
+.item:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+}
+
+.item::after{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    position: absolute;
+    left: 20px;
 }
