@@ -4,7 +4,7 @@ function Locator() {
   return (
     <div>
       <Layout />
-      <h1>sdijsdijsaoiasiodjsaiodj</h1>
+      <h1>Locator</h1>
     </div>
   );
 }

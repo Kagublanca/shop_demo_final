@@ -4,7 +4,7 @@ function ContactUs() {
   return (
     <div>
       <Layout />
-      <h1>sdijsdijsaoiasiodjsaiodj</h1>
+      <h1>Contacnt us</h1>
     </div>
   );
 }
