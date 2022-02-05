@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.greeting{
+    font-family: 'Itim', cursive;
+    position: absolute;
+    display: grid;
+    text-align: center;
+    left: 33%;
+    margin-top: 50px;
+}
+.welcome{
+font-size: 80px;
+}
