@@ -1,16 +1,17 @@
 .item{
     display: flex;
     color: white;
-    font-size: 1em;
+    font-size: 1.1em;
     white-space: nowrap;
     display: inline-block;
     padding: .1cm;
     list-style-type: none;
     border: solid white 2px;
-    margin: 6px;
+    margin: 10px;
     border-radius: 25px 500px 200px;
-    width: calc(6vw);
+    width: calc(7vw);
     text-align: center;
+    padding-bottom: 2mm;
 }
 
 .item:hover{
@@ -35,4 +36,9 @@
     background-color: brown;
     position: absolute;
     left: 20px;
+}
+
+.image{
+    align-items: flex-start;
+    color: black;
 }
