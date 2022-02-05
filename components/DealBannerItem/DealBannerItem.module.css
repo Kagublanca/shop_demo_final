@@ -11,5 +11,13 @@
     text-align: center;
     padding-bottom: 2mm;
 font-family: 'Short Stack', cursive;
+border: solid black 2px;
+border-radius: 20px 100px 200px 500px ;
+padding-bottom: 5px;
+}
 
+
+.item:hover{
+cursor: pointer;
+background-color: rgb(163, 163, 163);
 }
