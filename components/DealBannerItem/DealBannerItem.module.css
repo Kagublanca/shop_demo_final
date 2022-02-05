@@ -1,0 +1,15 @@
+.item{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    white-space: nowrap;
+    display: inline-block;
+    padding: .1cm;
+    list-style-type: none;
+    margin: 10px;
+    width: calc(7vw);
+    text-align: center;
+    padding-bottom: 2mm;
+font-family: 'Short Stack', cursive;
+
+}

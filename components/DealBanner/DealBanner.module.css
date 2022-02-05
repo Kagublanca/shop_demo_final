@@ -1,0 +1,8 @@
+.banner{
+    margin-top: 20px;
+    width: 100vw;
+    height: 4vh;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+}
