@@ -15,10 +15,15 @@ left: 5vw;
 }
 
 .searchbox:hover{
-    background-color: #ebebeb;
-    outline: none;
+    background-color: #d3d3d3;
+    outline: rgb(0, 0, 0) 3px solid
 }
 
 .cancel{
-    background-color: aqua;
+    position: flex ;
+    justify-self: center;
+    cursor: pointer;
+}
+.input{
+    display: flex;
 }

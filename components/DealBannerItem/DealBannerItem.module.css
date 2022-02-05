@@ -1,23 +1,39 @@
 .item{
-    display: flex;
     color: rgb(0, 0, 0);
     font-size: 1em;
     white-space: nowrap;
     display: inline-block;
     padding: .1cm;
-    list-style-type: none;
-    margin: 10px;
-    width: calc(7vw);
+    margin-top: 13px;
+    width: calc(13vw);
     text-align: center;
     padding-bottom: 2mm;
 font-family: 'Short Stack', cursive;
 border: solid black 2px;
 border-radius: 20px 100px 200px 500px ;
-padding-bottom: 5px;
+padding-bottom: 3px;
+margin-left: 30px;;
 }
 
 
 .item:hover{
 cursor: pointer;
-background-color: rgb(163, 163, 163);
+animation: fade .3s;
+animation-fill-mode: forwards;
+
+}
+
+@keyframes fade {
+from{
+
+}
+to{
+    background-color: rgb(163, 163, 163);
+    box-shadow: 3px 3px black;
+
+}
+}
+
+.picture{
+    position: absolute;
 }

@@ -17,8 +17,9 @@ function Search() {
       return setIsCancel(
         <div
           onClick={() => {
-            setState("");
+            console.log("The state is:" + state);
           }}
+          className={styles.input}
         >
           <Image
             className={styles.cancel}
