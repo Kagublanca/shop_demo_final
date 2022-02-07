@@ -20,10 +20,20 @@ left: 5vw;
 }
 
 .cancel{
-    position: flex ;
-    justify-self: center;
     cursor: pointer;
+    display: flex;
 }
 .input{
     display: flex;
+}
+
+.cancelContainer{
+    display: flex;
+outline: 2px solid pink;
+}
+
+.test{
+    display: flex;
+    justify-content: flex-end;
+    outline: 2px solid red;
 }

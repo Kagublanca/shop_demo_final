@@ -15,19 +15,21 @@ function Search() {
     if (state.length > 0) {
       console.log(state.length);
       return setIsCancel(
-        <div
-          onClick={() => {
-            console.log("The state is:" + state);
-          }}
-          className={styles.input}
-        >
-          <Image
-            className={styles.cancel}
-            src="/Cancel.png"
-            alt="cancelButton"
-            width="30px"
-            height="30px"
-          />
+        <div className={styles.test}>
+          <div
+            className={styles.cancelContainer}
+            onClick={() => {
+              setState("");
+            }}
+          >
+            <Image
+              className={styles.cancel}
+              src="/Cancel.png"
+              alt="cancelButton"
+              width="30px"
+              height="30px"
+            />
+          </div>
         </div>
       );
     }
@@ -37,6 +39,7 @@ function Search() {
   return (
     <form>
       <input
+        value={state}
         className={styles.searchbox}
         placeholder="Search for groceries"
         onChange={handleTyping}
